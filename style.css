@@ -421,4 +421,14 @@ ul a{
         height:auto;
         padding: 10px;
     }
+
+    /* Shop-Section */
+    .shop-section{
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 48%;
+        margin-top: 10px;
+    }
  }
