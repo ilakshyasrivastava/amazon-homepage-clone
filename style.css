@@ -385,3 +385,40 @@ ul a{
 .img6 { background-image: url("box4.2-img.jpg"); }
 .img7 { background-image: url("box4.3-img.jpg"); }
 .img8 { background-image: url("box4.4-img.jpg"); }
+
+/* making website responsive */
+ @media (max-width: 786px) {
+
+    /* Navbar */
+    .navbar{
+        flex-wrap: wrap;
+        height: auto;
+        paddind: 10px;
+    }
+
+    .nav-search{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .nav-address, .nav-singin, .nav-return{
+        display: none; 
+    }
+
+    /* Panel */
+    .panel{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    .panel-ops{
+        width: 100%;
+        margin-top: 250px;
+    }
+
+    .hero-mssg{
+        font-size: 0.7rem;
+        height:auto;
+        padding: 10px;
+    }
+ }
