@@ -53,7 +53,8 @@
 }
 
 .add-icon{
-    align-item: center;
+    display: flex;
+    align-items: center;
 }
 
 /*box-3*/
@@ -166,12 +167,12 @@ span{
 }
 
 .hero-mssg a{
-  color: #007185
+  color: #007185;
 }
 
 /** box section **/ 
 .box{
-   /** border: 2px solid black **/;
+   /** border: 2px solid black **/
 }
 
 /** shop section **/
@@ -211,7 +212,6 @@ footer{
     margin-top: 15px;
 
 }
-
 
 .foot-panel1{
     background-color: #37475a;
@@ -280,8 +280,6 @@ ul a{
 .copyright{
     padding-top: 5px;
 }
-
-
 
 .box3 {
   background-color: white;
@@ -386,49 +384,3 @@ ul a{
 .img7 { background-image: url("box4.3-img.jpg"); }
 .img8 { background-image: url("box4.4-img.jpg"); }
 
-/* making website responsive */
- @media (max-width: 786px) {
-
-    /* Navbar */
-    .navbar{
-        flex-wrap: wrap;
-        height: auto;
-        paddind: 10px;
-    }
-
-    .nav-search{
-        width: 100%;
-        margin-top: 10px;
-    }
-    .nav-address, .nav-singin, .nav-return{
-        display: none; 
-    }
-
-    /* Panel */
-    .panel{
-        flex-wrap: wrap;
-        height: auto;
-        padding: 10px;
-    }
-
-    .panel-ops{
-        width: 100%;
-        margin-top: 250px;
-    }
-
-    .hero-mssg{
-        font-size: 0.7rem;
-        height:auto;
-        padding: 10px;
-    }
-
-    /* Shop-Section */
-    .shop-section{
-        flex-wrap: wrap;
-    }
-
-    .box{
-        width: 48%;
-        margin-top: 10px;
-    }
- }
