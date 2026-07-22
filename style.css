@@ -384,3 +384,26 @@ ul a{
 .img7 { background-image: url("box4.3-img.jpg"); }
 .img8 { background-image: url("box4.4-img.jpg"); }
 
+/* Make website responsive */
+
+@media (max-width: 768px) {
+ .navbar{
+    flex-wrap: wrap;
+    height: auto;
+ }
+
+ .nav-search{
+    width: 100%;
+    margin-top: 10px;
+ }
+
+ .nav-address, .nav-sigin, .nav-return{
+    display: none;
+ }
+
+ .nav-cart{
+    margin-left: auto;
+ }
+ 
+}
+
