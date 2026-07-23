@@ -192,9 +192,10 @@ span{
 
 .box-img{
     height: 300px;
-    background-size: cover;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
 
 }
 
@@ -440,6 +441,10 @@ ul a{
     width: 90%;
  }
 
+ .box-img{
+    height: 180px;
+ }
+
  .foot-panel2{
     flex-direction: column;
     height: auto;
@@ -487,5 +492,11 @@ ul a{
 
     .hero-section{
         height: 250px;
+    }
+}
+
+@media (max-width: 480px){
+    .box-img{
+        height: 200px;
     }
 }
