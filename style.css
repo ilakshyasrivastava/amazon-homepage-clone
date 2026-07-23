@@ -178,28 +178,23 @@ span{
 /** shop section **/
 .shop-section{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
-    padding: 20px;
 }
 
 .box{
-    width: 22%;
+    height: 400px;
+    width: 23%;
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
-    height: auto;
-    min-height: 420px;
 }
 
 .box-img{
     height: 300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .box-content{
@@ -303,7 +298,6 @@ ul a{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 18px;
-  min-height: 260px;
 }
 
 .box3-item {
@@ -313,9 +307,9 @@ ul a{
 
 .box3-img {
   width: 100%;
-  height: 100%;
-  background-size: contain;
-  object-fit: cover;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
 }
 
 .box3-item p {
@@ -356,7 +350,6 @@ ul a{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 18px;
-  min-height: 260px;
 }
 
 .box4-item {
